@@ -25,7 +25,7 @@ const CategoryHeader = () => {
             </div>
 
             <div className="category">
-                Accesories
+                Accessories
             </div>
 
             <div className="category">

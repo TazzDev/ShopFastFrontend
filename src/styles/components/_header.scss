@@ -87,30 +87,3 @@ header {
     background: coral;
 }
 
-//category-bar
-
-#category-header {
-    width: 100vw;
-    height: 7vh;
-    background: rgb(236, 163, 137);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.category {
-    cursor: pointer;
-    background:rgb(245, 195, 177);
-    border-radius: 5px;
-    padding: 0.2% 0.5%;
-}
-
-.category:hover {
-    animation: hoverglow 500ms forwards;
-}
-
-@keyframes hoverglow {
-    100% {
-        background:rgb(235, 117, 74);
-    }
-}

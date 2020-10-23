@@ -23,7 +23,13 @@ module.exports = {
                     "css-loader",
                     "sass-loader"
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|mp4|mov|swf|webm)$/,
+                use: [
+                    'file-loader',
+                ]
+            },
         ]
     },
     resolve: {
