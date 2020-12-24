@@ -1,11 +1,13 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route, useLocation} from 'react-router-dom';
 import Header from '../components/Header.jsx';
 import HomeContainer from '../components/HomeContainer.jsx';
 
 //importing route-specific components
 
-const AppRouter = () => {
+const AppRouter = (props) => {
+    const loc = useLocation;
+    console.log(loc)
     return (
         <BrowserRouter>
             <Header/>
